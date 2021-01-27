@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "AC441D3F-C6D4-4559-ABA9-E864C71E4460",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Notes.xcodeproj",
+      "identifier" : "0ECB5BA62036EE9400655E0F",
+      "name" : "Notes"
+    }
+  },
+  "testTargets" : [
+    {
+      "enabled" : false,
+      "target" : {
+        "containerPath" : "container:Notes.xcodeproj",
+        "identifier" : "0ECB5BBD2036EE9400655E0F",
+        "name" : "NotesTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Notes.xcodeproj",
+        "identifier" : "0ECB5BC82036EE9400655E0F",
+        "name" : "NotesUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

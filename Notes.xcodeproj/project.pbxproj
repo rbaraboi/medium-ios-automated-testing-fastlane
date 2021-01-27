@@ -61,6 +61,7 @@
 		0ECB5BEB2036F0F600655E0F /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		14B9726463269EBDD470D8D7 /* Pods-NotesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotesTests/Pods-NotesTests.release.xcconfig"; sourceTree = "<group>"; };
 		19B7B63E4C86B866404ADEB3 /* Pods_NotesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3797155725C19703001CCFF1 /* Baseline.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Baseline.xctestplan; sourceTree = "<group>"; };
 		3A2ECDC78CF3DA6A7FD36A1E /* Pods_NotesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		666B843A4EB18416D33B74CE /* Pods-NotesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotesUITests/Pods-NotesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D4B963E84BBD42F52005448 /* Pods-Notes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notes/Pods-Notes.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +150,7 @@
 		0ECB5BCC2036EE9400655E0F /* NotesUITests */ = {
 			isa = PBXGroup;
 			children = (
+				3797155B25C1971C001CCFF1 /* TestPlans */,
 				0ECB5BCD2036EE9400655E0F /* NotesUITests.swift */,
 				0ECB5BCF2036EE9400655E0F /* Info.plist */,
 			);
@@ -221,6 +223,14 @@
 				BB4B81FE2BC5B7AF7DCCD961 /* Pods-NotesUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		3797155B25C1971C001CCFF1 /* TestPlans */ = {
+			isa = PBXGroup;
+			children = (
+				3797155725C19703001CCFF1 /* Baseline.xctestplan */,
+			);
+			path = TestPlans;
 			sourceTree = "<group>";
 		};
 		DF8A2A24A012348004269E6E /* Frameworks */ = {
